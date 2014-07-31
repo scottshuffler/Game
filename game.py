@@ -5,11 +5,11 @@ round_count = 0
 ''''Character'''
 health = 100000
 energy = 100
-attack = 1500
+attack = 150
 heal = 30
 
 '''Enemy'''
-enemy_health = 50000
+enemy_health = 100000
 enemy_energy = 100
 enemy_attack = 100
 enemy_heal = 40
