@@ -42,8 +42,8 @@ while health > 0 and enemy_health > 0:
         energy += 20
 
     '''Print stats'''
-    print("Your stats: ", health, energy, attack, heal)
-    print("Enemy stats: ", enemy_health, enemy_energy, enemy_attack, enemy_heal)
+    print("Your health:", health, "Your energy: ", energy)
+    print("Enemy health: ", enemy_health, "Your energy: ", enemy_energy)
 
 if health >= 0:
     print("You win")
