@@ -38,12 +38,15 @@ while health > 0 and enemy_health > 0:
 
     '''Even rounds gain 20 energy'''
     if round_count % 2 == 0:
-        enemy_energy += 20
-        energy += 20
+        enemy_energy += 10
+        energy += 10
 
     '''Print stats'''
     print("Your health:", health, "Your energy: ", energy)
     print("Enemy health: ", enemy_health, "Your energy: ", enemy_energy)
+
+    '''Update round count'''
+    round_count += 1
 
 if health >= 0:
     print("You win")
