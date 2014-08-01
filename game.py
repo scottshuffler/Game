@@ -1,23 +1,15 @@
 __authors__ = 'shuffleres, sinkdb'
 
+from character import Character
+
 round_count = 0
 
-''''Character'''
-health = 100000
-energy = 100
-attack = 150
-heal = 30
-
-'''Enemy'''
-enemy_health = 100000
-enemy_energy = 100
-enemy_attack = 100
-enemy_heal = 40
+char = Character()
 
 print("Your stats: ", health, energy, attack, heal)
 print("Enemy stats: ", enemy_health, enemy_energy, enemy_attack, enemy_heal)
 
-while health > 0 and enemy_health > 0:
+while char.health > 0 and enemy_health > 0:
     user_input = raw_input("Attack or heal: ").lower()
 
     '''user turn'''
